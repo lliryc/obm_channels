@@ -48,4 +48,4 @@ stats = manager.get_channel_stats(channel_id=channel.id)
 print(stats)
 ```
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the Apache License.
