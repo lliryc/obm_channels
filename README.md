@@ -6,8 +6,7 @@ OBM Channels is a library designed to manage communication channels for OBM (Ord
 
 - **Channel Creation**: Create new communication channels with ease.
 - **Channel Management**: Manage existing channels, including modifications and deletions.
-- **Monitoring**: Monitor channel activity and performance.
-- **Integration**: Easily integrate with OBM systems.
+- **Stat**: Get stat.
 
 ## Installation
 
