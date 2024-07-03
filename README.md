@@ -30,3 +30,22 @@ manager = ChannelManager()
 channel = manager.create_channel(name="New Channel", type="river")
 ```
 
+### Managing Channels
+To update or delete a channel, you can use the following methods:
+
+```python
+# Updating a channel
+channel.update(name="Updated Channel Name")
+
+# Deleting a channel
+manager.delete_channel(channel_id=channel.id)
+
+```
+## Get Stat for model
+You can get stat of stohastic model using:
+```python
+stats = manager.get_channel_stats(channel_id=channel.id)
+print(stats)
+```
+## License
+This project is licensed under the MIT License.
